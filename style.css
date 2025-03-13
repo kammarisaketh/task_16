@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #73e7f0;
+}
+
+/* Header Title */
+.header {
+    background-color: #f9fbff;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #e9ebe2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-btn:hover {
+    color: #f31c1c;
+}
+
+/* Active Button Styling */
+.nav-btn.active {
+    color: #cc520b;
+    font-weight: bold;
+    border: 2px solid #007bff;
+    padding: 8px 18px;
+}
+
+/* Content Section */
+iframe {
+    width: 90%;
+    height: 500px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
